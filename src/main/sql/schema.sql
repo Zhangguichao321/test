@@ -14,6 +14,9 @@ VALUES
 	(1002, '设计模式', 10),
 	(1003, '编译原理', 10)
 
+	select * from book
+	
+
 -- 创建预约图书表
 CREATE TABLE `appointment` (
   `book_id` bigint(20) NOT NULL COMMENT '图书ID',
